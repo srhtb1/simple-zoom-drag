@@ -1,0 +1,33 @@
+.wrapper {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.imh-6310-annotation-box {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+  position: relative;
+  max-width: 100% !important;
+  overflow: hidden;
+  width: 1200px;
+  height: 741px;
+  border: 1px solid red;
+}
+
+.imh-6310-annotation-box-inner {
+  position: absolute;
+  cursor: grab;
+  transition: transform 0.3s ease;
+  
+}
+.imh-6310-annotation-box-inner:active {
+  cursor: grabbing;
+}
+
+.imh-6310-annotation-box-inner img {
+  width: 1200px;
+  height: 100%;
+} 
+
+ 
